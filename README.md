@@ -62,3 +62,6 @@
 `etl_sales.kjb` - финальный job, где собраны все трансформации
 
 ![etl_sales](https://github.com/romantitovmephi/DWH_Kimball_Model/blob/main/screens/etl_sales.png)
+
+
+### Использовалась Pentaho DI Version 9.4. Корректно работает с версией Java 8 Update 121
