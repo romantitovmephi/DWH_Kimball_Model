@@ -24,43 +24,42 @@ updated_at_src - колонка хранит информацию последн
 
 `dim_date.ktr` - наполняет данными таблицу dim_date
 
-![dim_date]()
+![dim_date](https://github.com/romantitovmephi/DWH_Kimball_Model/blob/main/screens/dim_date.png)
 
 
 `dim_product.ktr` - наполняет данными таблицу dim_product
 
-![dim_product]()
+![dim_product](https://github.com/romantitovmephi/DWH_Kimball_Model/blob/main/screens/dim_product.png)
 
 
 Если в источнике данных появилась новая запись или изменилось какое-либо значение (например unit_price), то подгружаться будет только эта запись, при этом старая также останется.
 До изменения:
 
-![before_chng]()
+![before_chng](https://github.com/romantitovmephi/DWH_Kimball_Model/blob/main/screens/before_chng.png)
 
 Вносим изменение в unit_price:
 
-![chng]()
+![chng](https://github.com/romantitovmephi/DWH_Kimball_Model/blob/main/screens/chng.png)
 
 После изменений `dim_product.ktr` отрабатывает следующим образом:
 
-![after_chng_1]()
+![after_chng_1](https://github.com/romantitovmephi/DWH_Kimball_Model/blob/main/screens/after_chng_1.png)
 
 В таблице dim_product появилась одна новая запись:
 
-![after_chng_2]()
-
+![after_chng_2](https://github.com/romantitovmephi/DWH_Kimball_Model/blob/main/screens/after_chng_2.png)
 
 
 `dim_customer.ktr` - наполняет данными таблицу dim_customer
 
-![dim_customer]()
+![dim_customer](https://github.com/romantitovmephi/DWH_Kimball_Model/blob/main/screens/dim_customer.png)
 
 
 `fct_sales.ktr` - наполняет данными таблицу fct_sales
 
-![fct_sales]()
+![fct_sales](https://github.com/romantitovmephi/DWH_Kimball_Model/blob/main/screens/fct_sales.png)
 
 
 `etl_sales.kjb` - финальный job, где собраны все трансформации
 
-![etl_sales]()
+![etl_sales](https://github.com/romantitovmephi/DWH_Kimball_Model/blob/main/screens/etl_sales.png)
