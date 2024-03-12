@@ -1,7 +1,6 @@
 ## Построение DWH по Кимбаллу
 ### Физическая модель (Postgres)
 
-
 ![phys_model](https://github.com/romantitovmephi/DWH_Kimball_Model/blob/main/screens/phys_model.png)
 
 ### Пояснение:
