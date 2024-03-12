@@ -10,7 +10,7 @@ CREATE TABLE dim_date (
 	is_workday     bool NOT NULL
 );
 
-SELECT * FROM dim_date;
+--SELECT * FROM dim_date;
 
 --DROP TABLE dim_date
 
@@ -32,7 +32,7 @@ CREATE TABLE dim_product (
 	"version"      int 
 );
 
-SELECT * FROM dim_product;
+--SELECT * FROM dim_product;
 
 
 --DROP TABLE dim_product
@@ -104,7 +104,7 @@ VALUES(
 	1
 );
 
-SELECT * FROM dim_customer;
+--SELECT * FROM dim_customer;
 
 
 -- FACT TABLE
@@ -122,5 +122,3 @@ CREATE TABLE fct_sales (
 	line_total              numeric(10, 2) NOT NULL,
 	line_total_and_discount numeric(10, 2) NOT NULL
 );
-
-SEL
